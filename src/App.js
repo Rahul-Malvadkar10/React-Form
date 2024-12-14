@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Child from "./Child";
-import "./style.css"; // Import the style.css file
+import "./style.css"; // 
 
 function App() {
   const [parentData] = useState("Hello from Parent!");
   const [childData, setChildData] = useState("");
 
-  // Function to receive data from the child
+  // function to receive data from the child
   const handleChildData = (data) => {
     setChildData(data);
   };
