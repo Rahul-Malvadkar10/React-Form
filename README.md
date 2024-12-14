@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# React Form - Parent to Child and Child to Parent Data Passing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo of the project
+https://react-form-ochre-psi.vercel.app/
 
-## Available Scripts
+![Parent to child data communication image](https://github.com/user-attachments/assets/ca69ab4a-7f12-460a-8442-835918555cc1)
 
-In the project directory, you can run:
 
-### `npm start`
+This is a simple React application for data passing between parent and child components using React hooks. The app allows data to be passed from the parent component to the child component, and the child component sends data back to the parent.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Files
 
-### `npm test`
+1. **App.js**: This is the main file for the parent component where state is managed, and data is passed to the child component and received back from the child.
+2. **Child.js**: This is the child component where it receives data from the parent, and allows the user to input data which is sent back to the parent.
+3. **style.css**: External stylesheet to style the parent and child components.
+   
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1 Parent to Child Data Passing**: The parent component sends data to the child.
 
-### `npm run build`
+2 Child to Parent Data Passing**: The child component sends data back to the parent using a function passed as a prop.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3 Simple React Styling**: The components are styled using external CSS for a clean and responsive UI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Steps
 
-### `npm run eject`
+Installation 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1 Clone the repository: git clone https://github.com/Rahul-malvadkar10/React-Form.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2 Navigate to the project directory: cd React-Form
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   create-react-app .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3 Install dependencies: npm install
 
-## Learn More
+4 Running the Project Start the development server: npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will be available at http://localhost:3000.
