@@ -17,7 +17,7 @@ function App() {
       <p>Data from Parent: <span className="highlight">{parentData}</span></p>
       <p>Data from Child: <span className="highlight">{childData}</span></p>
 
-      {/* Pass data and function to the Child */}
+      // Pass data and function to the Child 
       <Child parentData={parentData} onSendToParent={handleChildData} />
     </div>
   );
