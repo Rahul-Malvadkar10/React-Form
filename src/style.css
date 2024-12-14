@@ -1,0 +1,71 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Parent Component Styling */
+  .parent-container {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0px 4px 8px grey;
+  }
+  
+  .parent-container h1 {
+    color: navy;
+  }
+  
+  .parent-container .highlight {
+    font-weight: bold;
+    color: green;
+  }
+  
+  /* Child Component Styling */
+  .child-container {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .child-container h2 {
+    color: darkblue;
+  }
+  
+  .child-container .highlight {
+    color: darkred;
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    padding: 10px 20px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: darkgreen;
+  }
+  
