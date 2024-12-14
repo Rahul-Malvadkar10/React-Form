@@ -12,7 +12,7 @@ function Child({ parentData, onSendToParent }) {
   return (
     <div className="child-container">
       <h2>Child Component</h2>
-      <p>Data from Parent: <span className="highlight">{parentData}</span></p>
+      <p>Data comes from Parent component: <span className="highlight">{parentData}</span></p>
 
       <input
         type="text"
