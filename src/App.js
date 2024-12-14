@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="parent-container">
       <h1>Parent Component</h1>
-      <p>Data from Parent: <span className="highlight">{parentData}</span></p>
+      <p>Parent Data: <span className="highlight">{parentData}</span></p>
       <p>Data from Child: <span className="highlight">{childData}</span></p>
 
       
